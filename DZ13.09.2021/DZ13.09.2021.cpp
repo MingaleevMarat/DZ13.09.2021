@@ -26,7 +26,7 @@ int main()
     push_row_back(array, rows, cols);
     print(array, rows, cols);
     clear(array, rows);
-
+    return 0;
 }
 
 void push_col_back(int** array, const unsigned int rows,  unsigned int& cols)
